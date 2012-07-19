@@ -1,0 +1,62 @@
+* {
+	font-size:1.05em;
+}
+body {
+	background:#211F1F;
+	color:#F2EDE3;
+	font-family: "chaparral-pro", Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+	font-size:20px;
+}
+
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#westport {
+	margin-top:0;
+	padding-top: 0;
+	font-size:100px;
+	font-family: "chaparral-pro", Georgia, 'Times New Roman', Times, serif;
+	font-weight: 700;
+}
+
+.lobster {
+	font-size: 100px;
+	margin-top:-40px;
+	margin-left:150px;
+	font-family: "bello-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	margin-bottom:10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "chaparral-pro", Georgia, 'Times New Roman', Times, serif;
+	font-weight: 700;
+	font-size:1.2em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+.date, .time, .location {
+	color:#C94A00;
+}
+
+dd {
+	display:inline-block;
+}
+dt {
+	font-weight: 700;
+	width:110px;
+	display:inline-block;
+}
