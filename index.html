@@ -5,56 +5,11 @@
 	
 	<script type="text/javascript" src="http://use.typekit.com/hnu8dez.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
+	<link rel="stylesheet" type="text/css" href="css/lobster.css" />
 	<style>
-		* {
-			font-size:1.05em;
-		}
-		body {
-			background:#211F1F;
-			color:#F2EDE3;
-			font-family: "chaparral-pro", Georgia, 'Times New Roman', Times, serif;
-		}
+		
 
-		p {
-			font-size:20px;
-		}
-
-		.wrapper {
-			width: 800px;
-			margin: 0 auto;
-		}
-
-		#westport {
-
-			margin-top:0;
-			padding-top: 0;
-			font-size:100px;
-			font-family: "chaparral-pro", Georgia, 'Times New Roman', Times, serif;
-			font-weight: 700;
-		}
-
-		.lobster {
-			font-size: 100px;
-			margin-top:-40px;
-			margin-left:150px;
-			font-family: "bello-pro",sans-serif;
-			font-style: normal;
-			font-weight: 400;
-			margin-bottom:10px;
-		}
-
-		.date, .time, .location {
-			color:#C94A00;
-		}
-
-		dd {
-			display:inline-block;
-		}
-		dt {
-			width:110px;
-			display:inline-block;
-		}
+		/* TODO: move to a css file, reduce margin-bottom on h3s; */
 	</style>
 </head>
 <body>
@@ -62,7 +17,7 @@
 		<h1 id="westport">Westport Rotary</h1>
 		<h2 class="lobster">Lobster Fest</h2>
 		
-		<p>Come join us for the first ever, annual, Westport Rotary Lobster Fest on <span class="date">September 22nd</span> at <span class="location">Compo Beach</span> between <span class="time">3:00pm - 7:00pm</span>. There will be lobster, steak, and all the beer and wine you want. There are children options as well.</p>
+		<p>Come join us for the first ever, <strong>annual</strong>, Westport Rotary Lobster Fest on <span class="date">September 22nd</span> at <span class="location">Compo Beach</span> between <span class="time">3:00pm - 7:00pm</span>. There will be lobster, steak, and all the beer and wine you want. There are children options as well. Only <strong>750 tickets</strong> are available, so get yours today.</p>
 
 		<h2>Details</h2>
 		<dl>
@@ -82,19 +37,21 @@
 			</div>
 		</dl>
 
-		<h2>Tickets</h2>
+		<h2>Menu</h2>
 
-		<h3>Online</h3>
+		<h3>Lobster - $40</h3>
+		<p>Two 1.25 pound lobsters plus corn, red potatoes, cole slaw, bread and butter, peppermint patties, and
+        all the beer or wine you want, featuring Beaver Beer. <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type="hidden" name="LinkId" value="e1416e9e-c4bb-4b50-8505-4fe17a1407a2" /> <input type="image" src="http://content.authorize.net/images/buy-now-gold.gif" /> </form></p>
 
-		<p>Lobster Meal: <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type="hidden" name="LinkId" value="e1416e9e-c4bb-4b50-8505-4fe17a1407a2" /> <input type="image" src="http://content.authorize.net/images/buy-now-gold.gif" /> </form></p>
+        <h3>Steak - $40</h3>
+		<p>A 14 oz. NY Strip Steak plus corn, red potatoes, cole slaw, bread and butter, peppermint patties, and
+        all the beer or wine you want, featuring Beaver Beer. <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type="hidden" name="LinkId" value ="941a9fab-b8ed-4684-859c-373dca3f9c1e" /> <input type="image" src="http://content.authorize.net/images/buy-now-gold.gif" /> </form></p>
 
-	 
-		<p>Steak Meal:  <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type="hidden" name="LinkId" value ="941a9fab-b8ed-4684-859c-373dca3f9c1e" /> <input type="image" src="http://content.authorize.net/images/buy-now-gold.gif" /> </form></p>
+	 	<h3>Child's Meal - $10</h3>
+		<p>Children ages 3-12 can choose from Hot Dogs, Chicken Fingers, Chips, and water or soda <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type="hidden" name="LinkId" value="3562bad6-83ff-4d65-afda-a8f36d7dfd38" /> <input type="image" src="http://content.authorize.net/images/buy-now-gold.gif" /> </form></p>
 
-	 
-		<p>Child's Meal:  <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input type="hidden" name="LinkId" value="3562bad6-83ff-4d65-afda-a8f36d7dfd38" /> <input type="image" src="http://content.authorize.net/images/buy-now-gold.gif" /> </form></p>
-
-		<h3>In Person</h3>
+		<h2>Buying A Ticket In Person</h2>
+		<p>Don't feel like buying your ticket online, you can purchase one in person:</p>
 		<ul>
 			<li>From your Favorite Westport Rotatarian, see homepage for a roster of Club Members</li>
 			<li>At Joey's By the Shore, Joey's at the Pool, or Joey's at the Half-way golf house</li>
